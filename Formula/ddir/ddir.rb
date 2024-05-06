@@ -1,4 +1,6 @@
 class Ddir < Formula
+    include Language::Python::Virtualenv
+
     desc "Diff a directory and sync changes."
     homepage "https://github.com/yannickkirschen/ddir"
     url "https://github.com/yannickkirschen/ddir/archive/refs/tags/3.0.1.zip"
@@ -12,6 +14,6 @@ class Ddir < Formula
     end
 
     test do
-      system "#{bin}/ddir", "--version"
+      system "#{bin}/ddir", "version"
     end
   end
