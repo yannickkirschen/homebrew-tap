@@ -1,0 +1,16 @@
+{
+    "cSpell.language": "en",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "cSpell.words": [
+        "ddir",
+        "yannickkirschen"
+    ],
+    "autopep8.args": [
+        "--max-line-length=140"
+    ]
+}
