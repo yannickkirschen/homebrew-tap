@@ -1,8 +1,7 @@
-# Brew formulas for ddir
+# Brew formulas for my software
 
-You can install [ddir](https://github.com/yannickkirschen/ddir) by executing:
+Add the tap: `brew tap yannickkirschen/tap`.
 
-```bash
-brew tap yannickkirschen/ddir
-brew install ddir
-```
+## Formulas
+
+- [ddir](https://github.com/yannickkirschen/ddir): `brew install ddir`
