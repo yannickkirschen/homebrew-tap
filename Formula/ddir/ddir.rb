@@ -3,8 +3,8 @@ class Ddir < Formula
 
     desc "Diff a directory and sync changes."
     homepage "https://github.com/yannickkirschen/ddir"
-    url "https://github.com/yannickkirschen/ddir/archive/refs/tags/3.1.0.zip"
-    sha256 "cb95c5736b6ae7c7e485b0b302feda03a30929bb88130c9f7062d00032ddc4e3"
+    url "https://github.com/yannickkirschen/ddir/archive/refs/tags/3.1.1.zip"
+    sha256 "0b59e10dbf164ef019258486b70f5223877086972787b69bd563a06658a49ca5"
     license :public_domain
 
     depends_on "python@3.12"
