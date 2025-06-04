@@ -5,21 +5,21 @@
 class Scrooge < Formula
   desc "Life's expensive - now you see why."
   homepage "https://github.com/yannickkirschen/scrooge"
-  version "0.1.0-alpha5"
+  version "0.1.0-alpha6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha5/scrooge_Darwin_x86_64.tar.gz"
-      sha256 "1d459a5c7d00245860fefd7633b752b56013dcb03ff42fc1de677fef01adbeeb"
+      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha6/scrooge_Darwin_x86_64.tar.gz"
+      sha256 "73a4e976ef38981e039346bc8b8f0766e42c6a138fcd58ad4b3b6256f9f3327f"
 
       def install
         bin.install "scrooge"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha5/scrooge_Darwin_arm64.tar.gz"
-      sha256 "94e559fbab957babae260361fd93e0f763d2b26b5fc5f348ff1b24e1943e2d3e"
+      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha6/scrooge_Darwin_arm64.tar.gz"
+      sha256 "f3e330446ccbf252fb50924051afa16a2fea674339f1e41929b3e639755568dd"
 
       def install
         bin.install "scrooge"
@@ -29,15 +29,15 @@ class Scrooge < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha5/scrooge_Linux_x86_64.tar.gz"
-      sha256 "4dc1b173f8c4b22c054ae34bd1733d0898155ec0a594af7e37fc7daa86e62964"
+      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha6/scrooge_Linux_x86_64.tar.gz"
+      sha256 "722cd9d438bd6b8c5058868271f5fa0355ee40ba2d3a7714d2a19a1fae790491"
       def install
         bin.install "scrooge"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha5/scrooge_Linux_arm64.tar.gz"
-      sha256 "3bb508fc57fa5eac0d28b404285e59f7ed2fbeeb939af047014d8f7d84038b17"
+      url "https://github.com/yannickkirschen/scrooge/releases/download/0.1.0-alpha6/scrooge_Linux_arm64.tar.gz"
+      sha256 "73655ffbfaa4e369e7bbd5ca68eda72df340ce204a09011eb6aba2fe24daec74"
       def install
         bin.install "scrooge"
       end
