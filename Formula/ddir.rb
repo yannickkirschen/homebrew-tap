@@ -7,7 +7,7 @@ class Ddir < Formula
     sha256 "b7cf7c8f825c1b3441f8d3d3ad1622928190c6deb170df7ef71d1dae07c93d85"
     license :public_domain
 
-    depends_on "python@3.12"
+    depends_on "python@3.13"
 
     def install
         virtualenv_install_with_resources
